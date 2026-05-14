@@ -1,8 +1,6 @@
-**Project Proposal: AI-assisted Requirements & User Stories Generator**
+## Project Proposal: AI-assisted Requirements & User Stories Generator
 
----
-
-**1. Goal of the Project**
+## 1. Goal of the Project
 
 Das Ziel des Projekts ist zu untersuchen, wie gut KI eine Person ohne Programmier- oder Software-Engineering-Erfahrung dabei unterstützen kann, aus einer einfachen Softwareidee brauchbare Requirements und User Stories zu erstellen.
 
@@ -10,9 +8,7 @@ Viele unerfahrene Personen haben zwar eine Idee für ein Programm, wissen aber n
 
 Im Projekt wird daher getestet, ob ein KI-gestützter Workflow aus einer groben Beschreibung systematisch Requirements und User Stories ableiten kann, die auch für eine unerfahrene Person verständlich und hilfreich sind.
 
----
-
-**2. System / Workflow to be Developed**
+## 2. System / Workflow to be Developed
 
 Es wird kein komplexes Softwareprodukt entwickelt, sondern ein dokumentierter KI-gestützter Workflow.
 
@@ -34,9 +30,7 @@ Als Anwendungsideen werden voraussichtlich verwendet:
 
 Durch zwei Anwendungsideen soll geprüft werden, ob die Qualität der KI-Ergebnisse von der Komplexität der Ausgangsidee abhängt.
 
----
-
-**3. AI Assistance**
+## 3. AI Assistance
 
 ChatGPT und Gemini werden genutzt, um:
 
@@ -56,8 +50,6 @@ Zusätzlich werden verschiedene Prompt-Strategien getestet:
 | Strukturierter Prompt | Vorgabe eines festen Templates für Requirements und User Stories |
 | Iterativer Prompt | KI stellt Rückfragen und verbessert die Ergebnisse schrittweise |
 
----
-
 ## 4. Baseline and Comparison Method
 
 Um einen sinnvollen Vergleich durchführen zu können, wird vor der KI-Nutzung eine manuelle Baseline erstellt. Diese enthält Requirements und User Stories, die ohne KI-Unterstützung formuliert werden.
@@ -76,8 +68,6 @@ Danach werden die KI-generierten Ergebnisse mit dieser Baseline verglichen. Dabe
 
 Die Ergebnisse werden in Tabellen dokumentiert und anschließend qualitativ zusammengefasst.
 
----
-
 ## 5. Evaluation Method
 
 Eine externe Benutzerevaluierung mit 5–7 Personen ist im Rahmen dieses Projekts nicht vorgesehen, da die passende Zielgruppe schwer sinnvoll zu rekrutieren wäre. Die Personen müssten einerseits keine Software-Engineering-Erfahrung haben, andererseits aber genug Interesse und Zeit mitbringen, um Requirements und User Stories bewerten zu können.
@@ -93,8 +83,6 @@ Die Evaluation besteht aus drei Teilen:
 | Vergleich und Reflexion | Beide Ergebnisse werden anhand fixer Kriterien verglichen und dokumentiert |
 
 Zusätzlich wird bewertet, ob die KI einem Anfänger helfen würde, über wichtige Softwareaspekte nachzudenken, die über reine Basisfunktionen hinausgehen.
-
----
 
 ## 6. Reproducibility
 
@@ -113,8 +101,6 @@ Zur Sicherstellung der Reproduzierbarkeit werden alle relevanten Schritte dokume
 
 Dadurch soll nachvollziehbar sein, wie die Ergebnisse entstanden sind und wie der Vergleich durchgeführt wurde.
 
----
-
 ## 7. Validation
 
 Die zentrale Validierungsfrage lautet:
@@ -132,8 +118,6 @@ Bewertet wird anhand folgender Kriterien:
 | Mehrwert | Erkennt die KI Aspekte, an die ein Anfänger vermutlich nicht gedacht hätte? |
 | Grenzen | Welche wichtigen Punkte fehlen oder sind zu ungenau? |
 
----
-
 ## 8. Project Plan
 
 | Phase | Aufgabe |
@@ -148,16 +132,12 @@ Bewertet wird anhand folgender Kriterien:
 | 8 | Ergebnisse auswerten und README schreiben |
 | 9 | Präsentation vorbereiten |
 
----
-
-**7. Teamwork and Responsibilities**
+## 7. Teamwork and Responsibilities
 
 | Teammitglied | Verantwortlichkeiten |
 |---|---|
 | Patrick Boettger | Definition der Ausgangsidee, Prompt-Workflow, KI-generierte Requirements, Prüfung auf Vollständigkeit und Verständlichkeit |
 | Lukas Berghofer | KI-generierte User Stories, Akzeptanzkriterien, Evaluation der Ergebnisse, GitHub-Dokumentation |
-
----
 
 ## 9. Teamwork and Responsibilities
 
@@ -166,15 +146,11 @@ Bewertet wird anhand folgender Kriterien:
 | Patrick Boettger | Auswahl der Anwendungsideen, Erstellung der Baseline, Prompt-Workflow, Vergleich der Requirements |
 | Lukas Berghofer | Generierung und Vergleich der User Stories, Akzeptanzkriterien, Evaluation, GitHub-Dokumentation |
 
----
-
 ## 10. Relation to Course
 
 Das Projekt passt zum Kurs, weil es AI-assisted Software Engineering in der frühen Phase des Software Development Lifecycle untersucht. Der Fokus liegt auf Requirements Engineering, User Stories, Prompt Engineering, Evaluation von KI-Ergebnissen und Human-in-the-loop-Prüfung.
 
 Im Kurs wird AI-assisted Software Engineering als Unterstützung über den gesamten Softwareentwicklungsprozess hinweg betrachtet. Besonders die frühe Planung, das Erstellen von Software Design Documents, das Ableiten von Requirements und das Generieren von User Stories sind passende Einsatzbereiche für LLMs.
-
----
 
 ## 11. Used Technologies
 
