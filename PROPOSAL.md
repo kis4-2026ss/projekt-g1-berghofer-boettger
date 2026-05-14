@@ -180,7 +180,7 @@ Im Kurs wird AI-assisted Software Engineering als Unterstützung über den gesam
 
 | Technology | Purpose |
 |---|---|
-| ChatGPT | Generierung von Requirements und User Stories |
+| ChatGPT & Gemini | Generierung von Requirements und User Stories |
 | GitHub | Repository und Projektdokumentation |
 | Markdown | Proposal, README, Requirements, User Stories und Evaluation |
 | draw.io | Darstellung des Workflows |
