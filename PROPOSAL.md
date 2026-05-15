@@ -79,7 +79,7 @@ Die Evaluation besteht aus drei Teilen:
 | Schritt | Beschreibung |
 |---|---|
 | Manuelle Baseline | Requirements und User Stories werden zuerst ohne KI-Unterstützung erstellt |
-| KI-generierte Version | ChatGPT und Gemini erstellt Requirements, User Stories und Akzeptanzkriterien auf Basis definierter Prompts |
+| KI-generierte Version | ChatGPT und Gemini erstellen Requirements, User Stories und Akzeptanzkriterien auf Basis definierter Prompts |
 | Vergleich und Reflexion | Beide Ergebnisse werden anhand fixer Kriterien verglichen und dokumentiert |
 
 Zusätzlich wird bewertet, ob die KI einem Anfänger helfen würde, über wichtige Softwareaspekte nachzudenken, die über reine Basisfunktionen hinausgehen.
@@ -125,19 +125,12 @@ Bewertet wird anhand folgender Kriterien:
 | 1 | Anwendungsideen mit unterschiedlicher Komplexität auswählen |
 | 2 | Manuelle Baseline für Requirements und User Stories erstellen |
 | 3 | Prompt-Templates und Prompt-Strategien definieren |
-| 4 | Requirements und User Stories mit ChatGPT generieren |
+| 4 | Requirements und User Stories mit ChatGPT und Gemini generieren |
 | 5 | KI-Ergebnisse mit der Baseline vergleichen |
 | 6 | Metriken und Chatverläufe dokumentieren |
 | 7 | Strukturierte Selbstevaluierung durchführen |
 | 8 | Ergebnisse auswerten und README schreiben |
 | 9 | Präsentation vorbereiten |
-
-## 7. Teamwork and Responsibilities
-
-| Teammitglied | Verantwortlichkeiten |
-|---|---|
-| Patrick Boettger | Definition der Ausgangsidee, Prompt-Workflow, KI-generierte Requirements, Prüfung auf Vollständigkeit und Verständlichkeit |
-| Lukas Berghofer | KI-generierte User Stories, Akzeptanzkriterien, Evaluation der Ergebnisse, GitHub-Dokumentation |
 
 ## 9. Teamwork and Responsibilities
 
@@ -156,7 +149,7 @@ Im Kurs wird AI-assisted Software Engineering als Unterstützung über den gesam
 
 | Technology | Purpose |
 |---|---|
-| ChatGPT & Gemini | Generierung von Requirements und User Stories |
+| ChatGPT und Gemini | Generierung von Requirements und User Stories |
 | GitHub | Repository und Projektdokumentation |
 | Markdown | Proposal, README, Requirements, User Stories und Evaluation |
 | draw.io | Darstellung des Workflows |
