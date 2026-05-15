@@ -46,7 +46,7 @@ Zusätzlich werden verschiedene Prompt-Strategien getestet:
 
 | Prompt-Strategie | Zweck |
 |---|---|
-| Einfacher Prompt | Prüfen, was ChatGPT aus einer sehr groben Beschreibung erzeugt |
+| Einfacher Prompt | Prüfen, was ChatGPT und Gemini aus einer sehr groben Beschreibung erzeugt |
 | Strukturierter Prompt | Vorgabe eines festen Templates für Requirements und User Stories |
 | Iterativer Prompt | KI stellt Rückfragen und verbessert die Ergebnisse schrittweise |
 
@@ -72,7 +72,7 @@ Die Ergebnisse werden in Tabellen dokumentiert und anschließend qualitativ zusa
 
 Eine externe Benutzerevaluierung mit 5–7 Personen ist im Rahmen dieses Projekts nicht vorgesehen, da die passende Zielgruppe schwer sinnvoll zu rekrutieren wäre. Die Personen müssten einerseits keine Software-Engineering-Erfahrung haben, andererseits aber genug Interesse und Zeit mitbringen, um Requirements und User Stories bewerten zu können.
 
-Stattdessen wird eine strukturierte Selbstevaluierung durchgeführt. Dabei wird bewusst reflektiert, welche Aspekte einer Softwareidee aus heutiger Sicht durch das Studium bekannt sind und welche Punkte vor der Ausbildung vermutlich nicht bedacht worden wären.
+Stattdessen wird eine strukturierte Selbstevaluierung durchgeführt. Dabei wird reflektiert, welche Aspekte einer Softwareidee ohne Software-Engineering-Erfahrung vermutlich schwer zu erkennen wären und welche Punkte durch die KI zusätzlich sichtbar gemacht werden.
 
 Die Evaluation besteht aus drei Teilen:
 
