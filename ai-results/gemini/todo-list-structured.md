@@ -1,8 +1,6 @@
-# Structured Prompt
+# Gemini Ergebnis: Simple To-do List - Structured Prompt
 
-Dieser Prompt wird verwendet, um KI-generierte Requirements und User Stories mit klareren Vorgaben zu erhalten.
-
-## Prompt
+## Verwendeter Prompt
 
 Erstelle Requirements und User Stories für eine einfache To-do-Listen-App.
 
@@ -13,6 +11,6 @@ Berücksichtige dabei:
 - User Stories im Format: Als Benutzer möchte ich ..., damit ...
 - eine klare und übersichtliche Struktur
 
-## Ziel
+## Ergebnis
 
-Der Prompt soll zeigen, ob eine genauere Aufgabenbeschreibung zu besseren und vollständigeren Ergebnissen führt.
+Das Ergebnis wird hier eingefügt, nachdem der Prompt mit Gemini ausgeführt wurde.
