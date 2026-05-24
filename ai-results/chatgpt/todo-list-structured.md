@@ -1,202 +1,176 @@
-# ChatGPT Ergebnis: Simple To-do List - Simple Prompt
+# ChatGPT Ergebnis: Simple To-do List - Structured Prompt
 
 ## Verwendeter Prompt
 
 Erstelle Requirements und User Stories für eine einfache To-do-Listen-App.
 
+Berücksichtige dabei:
+
+- funktionale Requirements
+- nicht-funktionale Requirements
+- User Stories im Format: Als Benutzer möchte ich ..., damit ...
+- eine klare und übersichtliche Struktur
+
 ## Ergebnis
 
-# To-do-Listen-App
+# Requirements und User Stories – To-do-Listen-App
 
 ## 1. Projektübersicht
 
-Die Anwendung ermöglicht Benutzern das einfache Verwalten von Aufgaben (To-dos).
-Ziel ist eine minimalistische, intuitive und schnelle To-do-Listen-App für den täglichen Gebrauch.
+Die To-do-Listen-App soll Benutzern ermöglichen, Aufgaben einfach zu erstellen, zu verwalten und nachzuverfolgen.  
+Der Fokus liegt auf einer intuitiven Bedienung und einer übersichtlichen Darstellung der Aufgaben.
 
 ---
 
-# 2. Funktionale Anforderungen (Functional Requirements)
+# 2. Funktionale Requirements
 
-## FR-1 Aufgaben erstellen
+## 2.1 Aufgabenverwaltung
+
+### FR-01: Aufgabe erstellen
 Der Benutzer kann neue Aufgaben anlegen.
 
-### Akzeptanzkriterien
-- Ein Eingabefeld für den Titel ist vorhanden.
-- Eine Aufgabe kann durch Klick auf „Hinzufügen“ erstellt werden.
-- Leere Aufgaben dürfen nicht gespeichert werden.
+### FR-02: Aufgabe bearbeiten
+Der Benutzer kann bestehende Aufgaben bearbeiten.
 
----
-
-## FR-2 Aufgaben anzeigen
-Der Benutzer kann alle vorhandenen Aufgaben sehen.
-
-### Akzeptanzkriterien
-- Aufgaben werden in einer Liste dargestellt.
-- Jede Aufgabe zeigt mindestens:
-  - Titel
-  - Status (offen/erledigt)
-
----
-
-## FR-3 Aufgaben als erledigt markieren
-Der Benutzer kann Aufgaben als erledigt markieren.
-
-### Akzeptanzkriterien
-- Eine Checkbox oder Schaltfläche ist vorhanden.
-- Erledigte Aufgaben werden visuell gekennzeichnet.
-
----
-
-## FR-4 Aufgaben bearbeiten
-Der Benutzer kann bestehende Aufgaben ändern.
-
-### Akzeptanzkriterien
-- Der Titel einer Aufgabe kann angepasst werden.
-- Änderungen werden sofort gespeichert.
-
----
-
-## FR-5 Aufgaben löschen
+### FR-03: Aufgabe löschen
 Der Benutzer kann Aufgaben entfernen.
 
-### Akzeptanzkriterien
-- Jede Aufgabe besitzt eine Löschfunktion.
-- Gelöschte Aufgaben verschwinden sofort aus der Liste.
+### FR-04: Aufgabe als erledigt markieren
+Der Benutzer kann Aufgaben als erledigt kennzeichnen.
+
+### FR-05: Aufgabenliste anzeigen
+Die Anwendung zeigt alle vorhandenen Aufgaben in einer Liste an.
+
+### FR-06: Aufgabenstatus anzeigen
+Die Anwendung zeigt an, ob eine Aufgabe offen oder erledigt ist.
+
+### FR-07: Aufgaben filtern
+Der Benutzer kann Aufgaben nach Status filtern:
+- Alle
+- Offen
+- Erledigt
+
+### FR-08: Aufgaben sortieren
+Die Anwendung ermöglicht die Sortierung nach:
+- Erstellungsdatum
+- Fälligkeitsdatum
+- Status
+
+### FR-09: Fälligkeitsdatum festlegen
+Der Benutzer kann einer Aufgabe ein Fälligkeitsdatum zuweisen.
+
+### FR-10: Datenspeicherung
+Die Aufgaben werden persistent gespeichert, sodass sie nach dem Neustart der Anwendung erhalten bleiben.
 
 ---
 
-## FR-6 Aufgaben filtern
-Der Benutzer kann Aufgaben nach Status filtern.
+# 3. Nicht-funktionale Requirements
 
-### Akzeptanzkriterien
-- Filteroptionen:
-  - Alle
-  - Offen
-  - Erledigt
-- Die Liste aktualisiert sich entsprechend.
+## 3.1 Benutzerfreundlichkeit
 
----
+### NFR-01: Einfache Bedienung
+Die Benutzeroberfläche soll intuitiv und leicht verständlich sein.
 
-## FR-7 Daten lokal speichern
-Die Aufgaben bleiben nach dem Neuladen der Seite erhalten.
-
-### Akzeptanzkriterien
-- Speicherung erfolgt lokal im Browser (z. B. Local Storage).
-- Nach erneutem Öffnen der App sind die Aufgaben weiterhin vorhanden.
+### NFR-02: Responsives Design
+Die Anwendung soll auf Desktop-, Tablet- und Mobilgeräten nutzbar sein.
 
 ---
 
-# 3. Nichtfunktionale Anforderungen (Non-Functional Requirements)
+## 3.2 Performance
 
-## NFR-1 Benutzerfreundlichkeit
-- Die Oberfläche soll einfach und intuitiv bedienbar sein.
-- Neue Benutzer sollen die App ohne Anleitung verstehen.
+### NFR-03: Schnelle Ladezeiten
+Die Anwendung soll innerhalb von maximal 2 Sekunden geladen werden.
 
-## NFR-2 Performance
-- Aufgaben sollen ohne merkbare Verzögerung gespeichert und angezeigt werden.
+### NFR-04: Reaktionszeit
+Benutzeraktionen sollen innerhalb von 1 Sekunde verarbeitet werden.
 
-## NFR-3 Responsives Design
-- Die Anwendung soll auf Desktop und Mobilgeräten nutzbar sein.
+---
 
-## NFR-4 Verfügbarkeit
-- Die App soll vollständig im Browser funktionieren.
+## 3.3 Sicherheit
 
-## NFR-5 Wartbarkeit
-- Der Code soll modular und gut dokumentiert sein.
+### NFR-05: Datenschutz
+Benutzerdaten dürfen nicht unautorisiert zugänglich sein.
+
+### NFR-06: Sichere Speicherung
+Gespeicherte Daten sollen vor Verlust geschützt werden.
+
+---
+
+## 3.4 Wartbarkeit
+
+### NFR-07: Erweiterbarkeit
+Die Softwarearchitektur soll zukünftige Erweiterungen ermöglichen.
+
+### NFR-08: Codequalität
+Der Quellcode soll dokumentiert und modular aufgebaut sein.
 
 ---
 
 # 4. User Stories
 
-## US-1 Aufgabe erstellen
-**Als** Benutzer  
-**möchte ich** neue Aufgaben hinzufügen  
-**damit** ich meine Aufgaben organisieren kann.
+## Aufgaben erstellen und verwalten
 
-### Akzeptanzkriterien
-- Eingabe eines Aufgabentitels möglich
-- Aufgabe erscheint direkt in der Liste
+### US-01
+Als Benutzer möchte ich neue Aufgaben erstellen können, damit ich meine Tätigkeiten festhalten kann.
 
----
+### US-02
+Als Benutzer möchte ich Aufgaben bearbeiten können, damit ich Änderungen an meinen Aufgaben vornehmen kann.
 
-## US-2 Aufgabe erledigen
-**Als** Benutzer  
-**möchte ich** Aufgaben als erledigt markieren  
-**damit** ich meinen Fortschritt sehen kann.
+### US-03
+Als Benutzer möchte ich Aufgaben löschen können, damit ich nicht mehr benötigte Aufgaben entfernen kann.
 
-### Akzeptanzkriterien
-- Aufgabe kann per Checkbox markiert werden
-- Erledigte Aufgaben werden optisch hervorgehoben
+### US-04
+Als Benutzer möchte ich Aufgaben als erledigt markieren können, damit ich meinen Fortschritt verfolgen kann.
 
 ---
 
-## US-3 Aufgabe bearbeiten
-**Als** Benutzer  
-**möchte ich** Aufgaben bearbeiten  
-**damit** ich Änderungen an meinen Aufgaben vornehmen kann.
+## Übersicht und Organisation
 
-### Akzeptanzkriterien
-- Titel kann geändert werden
-- Änderungen bleiben gespeichert
+### US-05
+Als Benutzer möchte ich alle Aufgaben in einer übersichtlichen Liste sehen, damit ich meine Aufgaben schnell erfassen kann.
 
----
+### US-06
+Als Benutzer möchte ich Aufgaben filtern können, damit ich nur relevante Aufgaben angezeigt bekomme.
 
-## US-4 Aufgabe löschen
-**Als** Benutzer  
-**möchte ich** Aufgaben löschen  
-**damit** ich nicht mehr benötigte Aufgaben entfernen kann.
+### US-07
+Als Benutzer möchte ich Aufgaben sortieren können, damit ich meine Aufgaben besser organisieren kann.
 
-### Akzeptanzkriterien
-- Aufgabe kann gelöscht werden
-- Liste wird sofort aktualisiert
+### US-08
+Als Benutzer möchte ich Fälligkeitsdaten für Aufgaben festlegen können, damit ich wichtige Termine nicht vergesse.
 
 ---
 
-## US-5 Aufgaben filtern
-**Als** Benutzer  
-**möchte ich** Aufgaben nach Status filtern  
-**damit** ich mich auf offene oder erledigte Aufgaben konzentrieren kann.
+## Nutzung und Bedienung
 
-### Akzeptanzkriterien
-- Filter „Alle“, „Offen“, „Erledigt“ vorhanden
-- Anzeige aktualisiert sich korrekt
+### US-09
+Als Benutzer möchte ich die Anwendung auf verschiedenen Geräten nutzen können, damit ich jederzeit Zugriff auf meine Aufgaben habe.
 
----
-
-## US-6 Daten behalten
-**Als** Benutzer  
-**möchte ich** dass meine Aufgaben gespeichert bleiben  
-**damit** ich sie nach dem Neuladen nicht erneut eingeben muss.
-
-### Akzeptanzkriterien
-- Aufgaben bleiben nach Browser-Neustart erhalten
+### US-10
+Als Benutzer möchte ich eine schnell reagierende Anwendung verwenden, damit ich effizient arbeiten kann.
 
 ---
 
-# 5. Technische Empfehlungen
+# 5. Akzeptanzkriterien (Beispiele)
 
-## Frontend
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS oder Framework wie React)
+## AK-01: Aufgabe erstellen
+- Eine neue Aufgabe kann über ein Eingabefeld hinzugefügt werden.
+- Nach dem Speichern erscheint die Aufgabe sofort in der Liste.
 
-## Datenspeicherung
-- Browser Local Storage
+## AK-02: Aufgabe abschließen
+- Erledigte Aufgaben werden visuell markiert.
+- Der Status bleibt nach dem Neuladen erhalten.
 
-## Optional Erweiterbar
-- Benutzerkonten
-- Cloud-Synchronisierung
-- Erinnerungen
-- Kategorien & Prioritäten
+## AK-03: Aufgaben filtern
+- Der Benutzer kann zwischen „Alle“, „Offen“ und „Erledigt“ wechseln.
+- Die Liste aktualisiert sich entsprechend der Auswahl.
+
+---
+
+# 6. Mögliche Erweiterungen
+
+- Benutzerkonten und Login
+- Synchronisation über Cloud-Dienste
+- Erinnerungen und Benachrichtigungen
+- Kategorien und Tags
 - Dark Mode
-
----
-
-# 6. MVP (Minimum Viable Product)
-
-Das MVP umfasst:
-- Aufgaben erstellen
-- Aufgaben anzeigen
-- Aufgaben erledigen
-- Aufgaben löschen
-- Lokale Speicherung
+- Drag-and-drop-Sortierung
