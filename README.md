@@ -138,11 +138,13 @@ Die Projektdateien sind in mehrere Ordner aufgeteilt, damit Baselines, Prompts, 
 │   ├── student-task-manager-requirements-comparison.md
 │   └── todo-list-requirements-comparison.md
 ├── evaluation
+│   ├── results_metrics_evaluation.xlsx
 │   ├── evaluation-criteria.md
 │   └── final-evaluation.md
 ├── presentation
 │   ├── presentation-structure.md
-│   └── slides-notes.md
+│   ├── slides-notes.md
+│   └── workflow.drawio
 ├── prompts
 │   ├── iterative-prompt.md
 │   ├── simple-prompt.md
@@ -169,11 +171,14 @@ Die Projektdateien sind in mehrere Ordner aufgeteilt, damit Baselines, Prompts, 
 | `comparison/` | Vergleich zwischen manueller Baseline und KI-Ergebnissen |
 | `comparison/todo-list-requirements-comparison.md` | Vergleich der Ergebnisse zur Simple To-do List |
 | `comparison/student-task-manager-requirements-comparison.md` | Vergleich der Ergebnisse zum Student Task Manager |
+| `evaluation/` | Bewertung, Kriterien und tabellarische Auswertung |
 | `evaluation/evaluation-criteria.md` | Kriterien für die Bewertung der KI-Ergebnisse |
 | `evaluation/final-evaluation.md` | Abschließende Bewertung des Projekts |
+| `evaluation/results_metrics_evaluation.xlsx` | Tabellarische Auswertung der Ergebnisse und Metriken |
 | `presentation/` | Materialien für die Präsentation |
 | `presentation/presentation-structure.md` | Geplante Struktur der Präsentation |
 | `presentation/slides-notes.md` | Notizen für die Präsentation |
+| `presentation/workflow.drawio` | Visuelle Darstellung des Projekt-Workflows |
 
 ## Manuelle Baseline
 
@@ -197,6 +202,13 @@ Die KI-Ergebnisse wurden anhand fester Kriterien bewertet:
 - Nutzen für Anfänger
 
 Dabei wurde nicht nur geprüft, ob die KI dieselben Punkte wie die Baseline erkennt, sondern auch, ob sie sinnvolle neue Aspekte ergänzt.
+
+## Metriken und Workflow-Darstellung
+
+Zusätzlich zur Markdown-Dokumentation wurden zwei Dateien zur besseren Auswertung und Visualisierung ergänzt:
+
+- Die Datei `evaluation/Auswertung_Ergebnisse_Metriken.xlsx` enthält eine tabellarische Auswertung der Ergebnisse und Metriken. Dort werden unter anderem die Anzahl der Turns, funktionale Requirements, nicht-funktionale Requirements, User Stories, Akzeptanzkriterien und zentrale Bewertungen festgehalten.
+- Die Datei `presentation/workflow.drawio` zeigt den Projekt-Workflow visuell. Sie stellt die einzelnen Projektschritte von der Auswahl der Anwendungsideen bis zur Evaluation und Präsentation dar.
 
 ## Ergebnisse und Fazit
 
